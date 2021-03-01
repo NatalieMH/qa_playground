@@ -4,4 +4,5 @@ const calculator = {
   multiply: (a, b) => a * b,
   divide: (a, b) => a / b,
 };
+console.log("This is a calculator");
 export default calculator;
