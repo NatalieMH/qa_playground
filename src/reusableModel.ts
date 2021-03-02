@@ -1,4 +1,4 @@
-class Bird {
+class Bird1 {
     name: string
     canFly: boolean
     hasFeathers: boolean = true
@@ -14,8 +14,8 @@ class Bird {
     }
 }
 let birds: Array<Bird> = [  //using class name instead of variable type
-    new Bird("toucan", true),
-    new Bird("ostrich", false)
+    new Bird1("toucan", true),
+    new Bird1("ostrich", false)
 ]
 birds.forEach((item:Bird) => { //loops through each item in the array
     item.flapWings()
